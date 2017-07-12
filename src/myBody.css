@@ -1,0 +1,18 @@
+.main{
+  background-color: #284D64;
+  margin : 50px 100px 10px 100px;
+  z-index: 1;
+  height: auto;
+  border-radius: 0px 10px 10px 0px
+}
+.main .headertext {
+  font-size: 3em;
+  color: #ffffff;
+  padding: 30px 40px 0 40px;
+  margin-bottom: 35px;
+}
+.bodytext{
+  font-size: 0.8em;
+  color: #ffffff;
+  padding: 0px 50px 10px 45px;
+}

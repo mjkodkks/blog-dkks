@@ -1,0 +1,93 @@
+.sidebar{
+  background-color: #D14B34;
+  height: 100%;
+  width: 100px;
+  z-index: 1;
+  position: fixed;
+  overflow-x: hidden;
+  box-shadow: 9px 2px 5px -6px rgba(0,0,0,0.39);
+  margin-top: 0px;
+  left: 0;
+  top: 0;
+}
+
+.home {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(pic/home.png) no-repeat;
+  width: auto; /* Width of new image */
+  height: 65px; /* Height of new image */
+  margin-bottom: 10px;
+
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  opacity: 0.8;
+}
+.home:hover {
+  opacity: 1;
+  transform:scale(1.09);
+
+}
+
+.boy {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(pic/boy.png) no-repeat;
+  width: auto; /* Width of new image */
+  height: 65px; /* Height of new image */
+  margin-bottom: 10px;
+
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  opacity: 0.8;
+}
+.boy:hover {
+  opacity: 1;
+  transform:scale(1.09);
+
+}
+
+.imgpic {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(pic/image.png) no-repeat;
+  width: auto; /* Width of new image */
+  height: 65px; /* Height of new image */
+  margin-bottom: 10px;
+
+  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  opacity: 0.8;
+}
+.imgpic:hover {
+  opacity: 1;
+  transform:scale(1.09);
+
+}
+
+.star {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(pic/star.png) no-repeat;
+  width: 32px; /* Width of new image */
+  height: 32px; /* Height of new image */
+  align-text:center;
+  margin: auto;
+  margin-top: 20px;
+
+/* The animation part: */
+   animation-name: spin;
+   animation-duration: 4000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: cubic-bezier(0, 0.88, 0.72, 0.42);
+ }
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 15px;
+}
